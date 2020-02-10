@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  background: var(--color-surface);
+  color: var(--color-solid);
+}
+
+button {
+  background: var(--color-surface);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+:root {
+  --color-surface: white;
+  --color-solid: black;
+  --color-primary: teal;
+}
